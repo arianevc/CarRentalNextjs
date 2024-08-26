@@ -1,0 +1,98 @@
+.footerEnd{
+    background-color: #000;
+    color: #fff;
+    padding: 0px 0;
+    font-family: Poppins, sans-serif;
+    height: 342px;   
+}
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+}
+.footerLogo {
+    flex: 1;
+}
+
+/* .footer-logo Image {
+    width: 100px; */
+    /* Adjust the size as needed */
+    /* margin-bottom: 10px;
+    margin-left: -120px;
+    margin-top: 5vh;
+} */
+
+.footerLinks {
+    display: flex;
+    flex: 6;
+    /* Adjust flex value to give more space */
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.footerColumn {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.footerColumn ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footerColumn li {
+    margin-bottom: 20px;
+}
+
+.footerColumn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerColumn a:hover {
+    color: #ccc;
+}
+
+.footerSubheading ul {
+    /* Subheading styles */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footerSocial {
+    text-align: right;
+    flex: 1;
+    margin-top: 3.5vh;
+}
+
+/* .footerSocial p {
+    margin-bottom: 10px;
+} */
+
+.socialIcons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-bottom: 10px;
+    margin-right: -60px;
+    margin-top: 20px;
+}
+
+.socialIcons a img {
+    width: 20px;
+    /* Adjust the size of social icons as needed */
+}
+.footerBottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #111;
+    color: #999;
+    font-size: 14px;
+    margin-top: 10px;
+    
+}
