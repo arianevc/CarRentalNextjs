@@ -1,10 +1,10 @@
 .redContainer{
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* width: 1312px; */
     /* height: 244px; */
     background-image: url('../../../../public/redContainer.svg');
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: cover;
     /* background-size: 100% 100%; */
     /* margin-top: 52px; */
@@ -20,9 +20,11 @@
         .redTopMenu{
             /* width: 582px;; */
             display: flex;
+            width: fit-content;
             font-family: Poppins;
             align-items: center;
-            /* padding-left: 50px; */
+            gap: 60px;
+            padding-left: 50px;
             /* position:absolute; */
             /* justify-content: space-evenly; */
         }
@@ -50,10 +52,10 @@
              color: #fff;
             
             }
-            .sameAsPickup .whiteLine{
+            .whiteLine{
                 color:#fff;
-                font-weight: 400;
-                margin-top: -32px;
+                /* font-weight: 400; */
+                /* margin-top: -32px; */
                 /* margin-bottom: -5px; */
                 
             }
@@ -86,12 +88,12 @@
         /* width: 113px;
         height: 15px; */
         display: flex;
-        padding-top: 13px;
+        /* padding-top: 13px; */
         /* margin-top: -42px; */
         /* margin-left: 500px; */
     
        }
-            .selectVehType #vehtype{
+            .selectVehType .select{
                 width: 190px;
                 height: 29px;
                 border-radius: 20px;
@@ -152,12 +154,12 @@
                     color: #000;
                     border: none;
                 }
-                    .selectLocnn .dropDownIcon{
+                    .dropDownIcon{
                         /* margin-top: -32px; */
                         /* margin-left: 231px; */
                         width: 7px;
                         height: 5px;
-                        left: -19px;
+                        left: -28px;
                         padding-top: 7px;
                         /* z-index: 2; */
                         position: relative;

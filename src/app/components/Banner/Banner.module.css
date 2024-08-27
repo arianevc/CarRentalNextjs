@@ -1,0 +1,48 @@
+.banner {
+    padding-top: 10px;
+    position: relative;
+    /* max-width: fit-content; */
+    background-image: url('../../../../public/carsPhoto.svg');
+    background-repeat: no-repeat;
+    height: 415px;
+    background-size: cover;
+    /* margin-left:64px; */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: flex-end; /* Center vertically */
+}
+.bannerText {
+   width:fit-content ;
+   /* height: 100px; */
+   /* margin-top: -192px; */
+   color: #fff;
+   font-family: Poppins;
+   text-align: center;
+   display: flex;
+   box-sizing: none;
+   /* position: absolute; */
+   /* left: 450px; */
+   font-size: 18px;
+   margin-bottom: 40px;
+   /* transform: translate(487px,200px); */
+   gap: 0px;
+   opacity: 0px;
+   /* top:125px; */
+}
+.bannerText .giftVoucher{
+    background-color: #009046;
+    max-height:fit-content ;
+    font-family: Poppins;
+    font-size: 16px;
+    /* margin-left: 196px; */
+    /* margin-top: 29px; */
+    color: #fff;
+    border-radius: 32px;
+    cursor: pointer;
+}
+.bannerDesc{
+    /* margin-top: -39px; */
+    width: 300px;
+    justify-content: left;
+    padding: 12px;
+}

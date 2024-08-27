@@ -1,0 +1,81 @@
+.faqContainer {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .rentHeading {
+    font-size: 35px;
+    text-align: center;
+    font-family: Poppins;
+    margin-bottom: 20px;
+  }
+  
+  .eligibility {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0;
+  }
+  
+  .ageGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bookCar {
+    font-size: 18px;
+    font-family: Poppins;
+    /* font-weight: bold; */
+  }
+  
+  .license {
+    font-size: 16px;
+    margin-top: 5px;
+    font-family: Poppins;
+    color: #0000009f;
+    display: none; /* Default hidden */
+  }
+  
+  .hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 10px 0;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .rentHeading {
+      font-size: 20px;
+    }
+  
+    .eligibility {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .bookCar {
+      font-size: 16px;
+    }
+  
+    .license {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .rentHeading {
+      font-size: 18px;
+    }
+  
+    .bookCar {
+      font-size: 14px;
+    }
+  
+    .license {
+      font-size: 12px;
+    }
+  }
+  

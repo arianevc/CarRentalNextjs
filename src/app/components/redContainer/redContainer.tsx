@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from './redContainer.module.css'; // Assuming you're using CSS Modules
+import styles from './redContainer.module.css'; 
 
 const RedContainer: React.FC = () => {
   return (
@@ -7,20 +7,20 @@ const RedContainer: React.FC = () => {
       <div className={styles.redTopMenu}>
         <div className={styles.sameAsPickup}>
           <p><a href="#">Same as Pick-Up</a></p>
-          <p id={styles.whiteLine}>______________</p>
+          
         </div>
         <div className={styles.dropoff}>
           <p><a href="#">Different Drop-Off</a></p>
         </div>
         <div className={styles.selectVehType}>
-          <select name="vehtype" id="vehtype">
+          <select name="vehtype" className={styles.select}>
             <option className={styles.option}>Select vehicle type</option>
             <option className={styles.option} value="SUV">SUV</option>
             <option className={styles.option} value="Sedan">Sedan</option>
             <option className={styles.option} value="Hatchback">Hatchback</option>
           </select>
           <div className={styles.dropDownIcon}>
-            <Image src="./drop-down-icon.svg" alt="drop-down-icon" width={24} height={24} />
+            <Image src="./drop-down-icon.svg" alt="drop-down-icon" width={8} height={8} />
           </div>
         </div>
       </div>
@@ -34,7 +34,7 @@ const RedContainer: React.FC = () => {
             <option className={styles.option} value="Shaneem">Shaneem</option>
           </select>
           <div className={styles.dropDownIcon}>
-            <Image src="./red-drop-down.svg" alt="drop-down-icon" width={24} height={24} />
+            <Image src="./red-drop-down.svg" alt="drop-down-icon" width={8} height={8} />
           </div>
         </div>
 
