@@ -12,7 +12,7 @@ const SubscribeSection: React.FC = () => {
           <input type="email" placeholder="Email" name="email" id="email" />
         </div>
         <div className={styles.subDesc}>
-          Don't miss out! Enter your email and your name, then hit subscribe to unlock a world of special offers and details.
+          Don&apost miss out! Enter your email and your name, then hit subscribe to unlock a world of special offers and details.
         </div>
         <div className={styles.subBtn}>
           <button>Subscribe</button>
