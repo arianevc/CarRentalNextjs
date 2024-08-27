@@ -1,0 +1,34 @@
+.buttons{
+    display: none;
+}
+@media (max-width: 768px) {
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+    }
+  
+    .bookacar {
+      display: block;
+      width: 150px;
+      font-family: Poppins;
+      padding: 10px 20px;
+      color: white;
+      background-color: #E21E26;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+  
+    .bookacar.active {
+      background-color: white;
+      color: #E21E26;
+    }
+  
+    .bookacar.inactive {
+      background-color: #E21E26;
+      color: white;
+    }
+  }
+  

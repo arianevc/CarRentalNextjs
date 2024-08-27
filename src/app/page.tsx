@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Header from "./components/Header/Header";
 import RedContainer from "./components/redContainer/redContainer";
+import RespBooking from "./components/RespBooking/RespBooking";
 import Banner from "./components/Banner/Banner";
 import PopularCars from "./components/PopularCars/PopularCars";
 import SubscribeSection from "./components/SubscribeSection/SubscribeSection";
@@ -13,10 +14,11 @@ import Footer from "./components/Footer/Footer";
 export default function Home() {
   return (
     <main className={styles.main}>
-    <link href='https://fonts.googleapis.com/css?family=Poppins&display=optional' rel='stylesheet'/>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
   
       <Header/>
       <RedContainer/>
+      <RespBooking/>
       <Banner/>
       <PopularCars/>
       <SubscribeSection/>

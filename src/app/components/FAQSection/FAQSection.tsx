@@ -60,7 +60,7 @@ const FAQSection: React.FC = () => {
                         <div>
                             <Image
                                 src={openFAQIndex === index ? './xmark.svg' : './+mark.svg'}
-                                alt="toggle-icon"
+                                alt="toggle-icon" width={30} height={30}
                             />
                         </div>
                     </div>

@@ -24,7 +24,7 @@
   .redCar {
     display: flex;
     flex-direction: row;
-    border: 1px solid rgb(128, 128, 128, 0.5);
+    border: 1px solid rgb(128, 128, 128, 128);
     gap: 20px;
     width: 752px;
        height: 288px;

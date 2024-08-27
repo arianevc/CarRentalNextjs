@@ -9,12 +9,14 @@
     /* background-size: 100% 100%; */
     /* margin-top: 52px; */
     /* margin-left: 64px; */
-    padding-inline: 40px 0;
+    padding-inline: 40px ;
     /* display: flex; */
     /* flex-direction: column; */
     /* gap: 0px; */
     /* opacity: 0px; */
     /* z-index: 5; */
+    border-radius: 1.5rem;
+   margin-bottom: 1rem;
     
     }
         .redTopMenu{
@@ -279,4 +281,20 @@
         }
         .storeBtn a{
             margin-left: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .redTopMenu{
+                display: none;
+            }
+            .booking{
+                display: none;
+            }
+            .redBottom{
+                flex-direction: column;
+            }
+            .storeBtn{
+                margin: auto;
+                padding-top: 20px;
+            }
         }

@@ -89,6 +89,7 @@ body {
 body {
   margin: 0;
   box-sizing: content-box;
+  overflow-y: hidden;
   color: rgb(var(--foreground-rgb));
   padding-inline: 1rem;
 }
