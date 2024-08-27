@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import Image from 'next/image';
 import styles from './FAQSection.module.css';
 
 const FAQSection: React.FC = () => {
@@ -57,7 +58,7 @@ const FAQSection: React.FC = () => {
                             </p>
                         </div>
                         <div>
-                            <img
+                            <Image
                                 src={openFAQIndex === index ? './xmark.svg' : './+mark.svg'}
                                 alt="toggle-icon"
                             />

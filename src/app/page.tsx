@@ -13,8 +13,8 @@ import Footer from "./components/Footer/Footer";
 export default function Home() {
   return (
     <main className={styles.main}>
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
-
+    <link href='https://fonts.googleapis.com/css?family=Poppins&display=optional' rel='stylesheet'/>
+  
       <Header/>
       <RedContainer/>
       <Banner/>
